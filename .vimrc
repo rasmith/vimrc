@@ -86,6 +86,9 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 " Post-update hook can be a lambda expression
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+Plug 'junegunn/fzf.vim'
+
 " On-demand loading: loaded when the specified command is executed
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 
@@ -103,6 +106,8 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'sainnhe/everforest'
 
 Plug 'NLKNguyen/papercolor-theme'
+
+Plug 'rhysd/vim-clang-format'
 
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
